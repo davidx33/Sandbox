@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 // import img2 from "./logo.svg";
+import Page from './components/Page';
 
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
           <li>I hope it gets me a job</li>
 
         </ul>
-        
+        <Page />
     </div>
   );
 }
