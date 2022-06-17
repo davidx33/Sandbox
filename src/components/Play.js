@@ -1,6 +1,19 @@
 // global declaration of a variable
 var count = 0
+React.useEffect(function () {
+    fetch("https://swapi.dev/api/people/1")
+    .then(res => res.json())
+    .then(data => setStarData(data))
 
+}, [])
+
+class david {
+    constructor(height, width){
+        this.height = height;
+        this.width = width;
+
+    }
+}
 var myDog = {
     name: "Brady",
     age: 3,
